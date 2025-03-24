@@ -71,7 +71,7 @@ async function somar() {
         if (data.resultado !== undefined) {
             valores = data.resultado;
             conta.textContent = valores;
-            console.log("Resultado:" , data.resultado); // Log no navegador
+            console.log("Resultado:" , data.resultado); 
         } else {
             conta.textContent = "Erro";
             valores = "";
