@@ -1,0 +1,215 @@
+/* Linhas */
+.linhas {
+    width: 80px;
+    height: 360px;
+    
+}
+
+.linha1 {
+    width: 120px;
+    height: 55px;
+    margin-top: -7px;
+    margin-left: -22px;
+    margin-right: -90px;
+    border-top: solid 10px #4BE636;
+    border-right: solid 10px #4BE636;  
+}
+
+.linha2 {
+    width: 120px;
+    height: 55px;
+    margin-top: 227px;
+    margin-left: -22px;
+    margin-right: -90px;
+    border-bottom: solid 10px #4BE636;
+    border-right: solid 10px #4BE636;  
+}
+
+.linhasb {
+    width: 80px;
+    height: 360px;
+}
+
+.linha1b {
+    width: 118px;
+    height: 55px;
+    margin-top: -7px;
+    margin-left: -94px;
+    margin-right: -90px;
+    border-top: solid 10px #4BE636;
+    border-left: solid 10px #4BE636;  
+}
+
+.linha2b {
+    width: 118px;
+    height: 55px;
+    margin-top: 227px;
+    margin-left: -94px;
+    margin-right: -90px;
+    border-bottom: solid 10px #4BE636;
+    border-left: solid 10px #4BE636;  
+}
+
+.linha1c {
+    border-top: solid 10px #4BE636;
+    width: 46px;
+    height: 55px;
+    margin-left: -22px;
+    margin-right: -22px;
+}
+
+.linha2c {
+    border-top: solid 10px #4BE636;
+    width: 46px;
+    height: 55px;
+    margin-left: -22px;
+    margin-right: -22px;
+}
+
+/****************************************************/
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4d4d4d;
+    margin: 2px;
+    font-size: 12px;
+    font-style: unset;
+}
+
+.infos h4 {
+    margin: 0 10px;
+}
+
+.lado1, .lado2 {
+    display: block;
+    align-items: center;
+}
+
+.jogos {
+    display: flex;
+    align-items: center;
+}
+
+.auxInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px; 
+}
+
+.times {
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+/* Cards dos jogos */
+.containerFases {
+    width: 220px;
+    height: 200px;
+    margin: 22px;
+    align-items: center;
+    background-color: #00000078;
+    padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.containerFinal {
+    width: 222px;
+    height: 500px;
+    margin: 22px;
+    align-items: center;
+    background-color: #00000078;
+    padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .containerFases {
+        margin-bottom: 10px;
+        margin-top: -6px;
+        background-color: transparent;
+        
+    }
+}
+
+.logoTime {
+    width: 60px;
+    height: 60px;
+}
+
+.gols {
+    margin-left: 12px;
+    margin-right: 12px;
+    
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    margin-bottom: 5px;
+}
+
+.golsX {
+    color: #4BE636;
+    text-shadow: 0 0 4px #74cf68ef;
+    margin-top: 124px;
+    margin-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.nomeTime {
+    font-size: 16px;
+    color: #d4d4d4;
+    text-align: center;
+}
+
+#g1 {
+    margin-top: 2%;
+}
+
+#g3 {
+    margin-top: 2%;
+}
+
+.containerFases #jogoFinal {
+    margin-top: 0;
+}
+
+.q, .s, .f {
+    text-align: center;
+    font-size: 17px;
+    color: #4BE636;
+    text-shadow: 2px 2px 6px #74cf68ef;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -21px;
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/*Verde: #4BE636*/
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #403B3B;
+}
+
+.inicio {
+    width: 100%;
+    height: 700px;
+    margin: -5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    align-content: center;
+    background-image: linear-gradient(to bottom, transparent 50%, #403b3bfd 99%), url(../img/backgroundFutebol.png);
+  
+}
+
+.contTitulo {
+    text-align: center;
+    width: 36%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.titulo {
+    font-size:75px;
+    text-align: center;
+    color: #4BE636;
+    text-shadow: 2px 2px 6px #74cf68ef;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    margin-top: -15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #aef1a5;
+    text-shadow: 0 0 3px #74cf68ef;
+}
+
+h3 {
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 16%;
+}
+
+/*Botão*/
+:root { 
+    --accent: #4BE636;
+}
+
+.fundo-botao {
+    background-color: var(--background);
+    display: grid;
+    place-items: center;
+    height: 30px;
+}
+
+.botao {
+    border: 0px solid;
+    padding: 6%;
+    outline: 1.5px solid;
+    align-items: center;
+    color: #ffffff;
+    outline-color: #ffffff;
+    outline-offset: 0px;
+    text-shadow: none;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1.5rem;
+    max-width: 200px;
+    width: 100%;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 550ms cubic-bezier(
+        .36,.63,.5,.73
+    );
+}
+
+
+
+.botao:hover {
+    border: 1.5px solid var(--accent);
+    outline-color: rgba(255 ,255, 255, 0);
+    outline-offset: 15px;
+    color: var(--accent);
+}
+
+svg {
+    color: #fff;
+    margin-left: 5px;
+    width: 27px;
+    height: 35px;
+}
+
+.botao:hover svg {
+    color: #4BE636;
+}
